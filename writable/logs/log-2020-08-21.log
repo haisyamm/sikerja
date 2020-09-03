@@ -1,0 +1,76 @@
+CRITICAL - 2020-08-21 20:48:30 --> Class 'App\Controllers\SettingModel' not found
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-21 20:49:35 --> Class 'App\Controllers\SettingModel' not found
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-21 21:00:54 --> Class 'App\Controllers\SettingModel' not found
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-21 21:00:59 --> Class 'App\Controllers\SettingModel' not found
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-21 21:01:31 --> Class 'App\Controllers\SettingModel' not found
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-21 21:01:31 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-21 21:01:32 --> Class 'App\Controllers\SettingModel' not found
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-21 21:01:32 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-21 21:01:42 --> Class 'App\Controllers\SettingModel' not found
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-21 22:04:13 --> Class 'App\Controllers\SettingModel' not found
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}

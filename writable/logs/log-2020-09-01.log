@@ -1,0 +1,92 @@
+CRITICAL - 2020-09-01 02:37:26 --> Class 'App\Controllers\SettingModel' not found
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-01 02:37:39 --> Class 'App\Controllers\SettingModel' not found
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-01 02:49:55 --> Class 'App\Controllers\SettingModel' not found
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-01 02:49:58 --> Class 'App\Controllers\SettingModel' not found
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-01 02:50:09 --> Class 'App\Controllers\SettingModel' not found
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-01 02:52:02 --> Class 'App\Controllers\SettingModel' not found
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-01 03:12:18 --> Call to undefined function App\Controllers\chicking_helper()
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-01 03:12:20 --> Call to undefined function App\Controllers\chicking_helper()
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-01 03:12:46 --> Call to undefined function App\Controllers\chicking_helper()
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-01 03:12:47 --> Call to undefined function App\Controllers\chicking_helper()
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-01 03:14:40 --> syntax error, unexpected 'helper' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-01 03:14:41 --> syntax error, unexpected 'helper' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

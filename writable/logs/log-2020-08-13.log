@@ -1,0 +1,2021 @@
+CRITICAL - 2020-08-13 02:55:44 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#1 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#2 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#4 C:\xampp\htdocs\sikerja\app\Controllers\Home.php(7): view('admin/home')
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-08-13 02:55:44 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 03:19:32 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\sikerja\app\Views\_partials\sidebar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#3 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#4 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#6 C:\xampp\htdocs\sikerja\app\Controllers\Home.php(7): view('admin/home')
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-08-13 03:19:32 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 03:20:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(10): App\Models\Setting_model->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 03:20:07 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 03:20:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(10): App\Models\Setting_model->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 03:20:11 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 03:21:42 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 03:21:42 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 03:22:17 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 03:22:17 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 03:23:28 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 03:23:28 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 03:23:29 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 03:23:29 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 03:23:39 --> Call to a member function getMenu() on null
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-13 03:23:39 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 03:23:46 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\sikerja\app\Controllers\Setting.php on line 13
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(13): view('admin/home', NULL)
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 03:23:46 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(TypeError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:07:46 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:07:46 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:15:58 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:19:57 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:19:57 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:20:05 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:20:05 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:23:33 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:23:33 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:24:25 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:24:25 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:24:26 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:24:26 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:24:28 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:24:28 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:25:09 --> Call to a member function getMenu() on null
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-13 05:25:09 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:26:13 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:26:13 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:26:14 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:26:14 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:26:32 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:26:32 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:26:33 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:26:33 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:30:27 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:43:42 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:43:42 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:43:42 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:43:42 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:44:23 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:44:23 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:44:32 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:44:32 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:46:10 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:46:10 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:46:31 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:46:31 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:47:28 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:47:28 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 05:47:46 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 05:47:46 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:10:26 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 06:10:27 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:10:28 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 06:10:28 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:10:40 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 06:10:40 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:11:20 --> Call to a member function getMenu() on null
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-13 06:11:20 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:11:31 --> Call to a member function getMenu() on null
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-13 06:11:31 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:12:22 --> Call to a member function getMenu() on null
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-13 06:12:22 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:12:32 --> Call to a member function getMenu() on null
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-13 06:12:32 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:15:49 --> Call to a member function getMenu() on null
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-13 06:15:49 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:16:57 --> Call to a member function getMenu() on null
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-13 06:16:57 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:17:14 --> Call to a member function getMenu() on null
+#0 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-13 06:17:14 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:18:54 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\sikerja\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\sikerja\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\sikerja\app\Models\SettingModel.php(11): CodeIgniter\Model->__call('get', Array)
+#3 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(19): App\Models\SettingModel->getMenu()
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 06:18:54 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:18:56 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\sikerja\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\sikerja\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\sikerja\app\Models\SettingModel.php(11): CodeIgniter\Model->__call('get', Array)
+#3 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(19): App\Models\SettingModel->getMenu()
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 06:18:56 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:36:40 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\sikerja\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\sikerja\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\sikerja\app\Models\SettingModel.php(13): CodeIgniter\Model->__call('select', Array)
+#3 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(20): App\Models\SettingModel->getMenu()
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 06:36:40 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:43:55 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(10): spl_autoload_call('App\\Models\\Sett...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(890): App\Controllers\Setting->__construct()
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 06:43:55 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:44:08 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(10): spl_autoload_call('App\\Models\\Sett...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(890): App\Controllers\Setting->__construct()
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 06:44:08 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:44:29 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(10): spl_autoload_call('App\\Models\\Sett...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(890): App\Controllers\Setting->__construct()
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 06:44:29 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:44:38 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(10): spl_autoload_call('App\\Models\\Sett...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(890): App\Controllers\Setting->__construct()
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 06:44:38 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:44:59 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sikerja\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(10): spl_autoload_call('App\\Models\\Sett...')
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(890): App\Controllers\Setting->__construct()
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-13 06:44:59 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:49:47 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(20): App\Models\SettingModel->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 06:49:47 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:50:17 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(20): App\Models\SettingModel->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 06:50:17 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:50:57 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(20): App\Models\SettingModel->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 06:50:57 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:52:43 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(20): App\Models\SettingModel->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 06:52:43 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:53:27 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(20): App\Models\SettingModel->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 06:53:27 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:55:48 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(20): App\Models\SettingModel->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 06:55:48 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:55:53 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(20): App\Models\SettingModel->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 06:55:53 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:57:03 --> Call to undefined method App\Models\SettingModel::order_by
+#0 C:\xampp\htdocs\sikerja\app\Models\SettingModel.php(18): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(20): App\Models\SettingModel->getMenu()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-08-13 06:57:03 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(BadMethodCallException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(BadMethodCallException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:57:04 --> Call to undefined method App\Models\SettingModel::order_by
+#0 C:\xampp\htdocs\sikerja\app\Models\SettingModel.php(18): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(20): App\Models\SettingModel->getMenu()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-08-13 06:57:04 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(BadMethodCallException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(BadMethodCallException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:57:15 --> Call to undefined method App\Models\SettingModel::order_by
+#0 C:\xampp\htdocs\sikerja\app\Models\SettingModel.php(18): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(20): App\Models\SettingModel->getMenu()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-08-13 06:57:15 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(BadMethodCallException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(BadMethodCallException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:57:16 --> Call to undefined method App\Models\SettingModel::order_by
+#0 C:\xampp\htdocs\sikerja\app\Models\SettingModel.php(18): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(20): App\Models\SettingModel->getMenu()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-08-13 06:57:16 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(BadMethodCallException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(BadMethodCallException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 06:57:23 --> Call to undefined method App\Models\SettingModel::order_by
+#0 C:\xampp\htdocs\sikerja\app\Models\SettingModel.php(18): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(20): App\Models\SettingModel->getMenu()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-08-13 06:57:23 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(BadMethodCallException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(BadMethodCallException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:04:27 --> Call to undefined function App\Models\sortMenu()
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(20): App\Models\SettingModel->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 07:04:27 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:12:42 --> Call to a member function result() on array
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(20): App\Models\SettingModel->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 07:12:42 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:14:03 --> Call to undefined function getMenu()
+#0 C:\xampp\htdocs\sikerja\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#2 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#3 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#5 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(23): view('admin/home', Array)
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#8 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-08-13 07:14:03 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:14:08 --> Call to undefined function getMenu()
+#0 C:\xampp\htdocs\sikerja\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#2 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#3 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#5 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(23): view('admin/home', Array)
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#8 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-08-13 07:14:08 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:14:24 --> Call to undefined function getMenu()
+#0 C:\xampp\htdocs\sikerja\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#2 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#3 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#5 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(23): view('admin/home', Array)
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#8 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-08-13 07:14:24 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:14:48 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\sikerja\app\Views\_partials\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#3 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#4 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#6 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(23): view('admin/home', Array)
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#8 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#9 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-08-13 07:14:48 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:15:57 --> Call to undefined function App\Models\sortMenu()
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(20): App\Models\SettingModel->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 07:15:57 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:16:28 --> Call to undefined function App\Models\sortMenu()
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(20): App\Models\SettingModel->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 07:16:28 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:21:43 --> Call to undefined function App\Models\sortMenu()
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(22): App\Models\SettingModel->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 07:21:43 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:22:46 --> Call to undefined function App\Models\sortMenu()
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(22): App\Models\SettingModel->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 07:22:46 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:22:47 --> Call to undefined function App\Models\sortMenu()
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(22): App\Models\SettingModel->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 07:22:47 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:22:58 --> Call to undefined function App\Models\sortMenu()
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(22): App\Models\SettingModel->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 07:22:58 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:26:04 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\sikerja\app\Views\_partials\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#3 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#4 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#6 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(30): view('admin/home', Array)
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#8 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#9 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-08-13 07:26:04 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:26:29 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\sikerja\app\Views\_partials\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#3 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#4 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#6 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(30): view('admin/home', Array)
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#8 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#9 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-08-13 07:26:29 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:36:06 --> Call to undefined function App\Models\sortMenu()
+#0 C:\xampp\htdocs\sikerja\app\Models\SettingModel.php(22): App\Models\SettingModel->sortMenu(Array)
+#1 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(22): App\Models\SettingModel->getMenu()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-08-13 07:36:06 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:36:32 --> Call to undefined function App\Models\sortMenu()
+#0 C:\xampp\htdocs\sikerja\app\Models\SettingModel.php(22): App\Models\SettingModel->sortMenu(Array)
+#1 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(22): App\Models\SettingModel->getMenu()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-08-13 07:36:32 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:37:45 --> Call to undefined function App\Models\sortMenu()
+#0 C:\xampp\htdocs\sikerja\app\Models\SettingModel.php(22): App\Models\SettingModel->sortMenu(Array)
+#1 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(22): App\Models\SettingModel->getMenu()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-08-13 07:37:45 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:39:29 --> Call to undefined function App\Models\sortMenu()
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(22): App\Models\SettingModel->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 07:39:29 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:47:21 --> Call to undefined function App\Models\sortMenu()
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(22): App\Models\SettingModel->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 07:47:21 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:48:07 --> Function name must be a string
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(22): App\Models\SettingModel->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 07:48:07 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 07:48:22 --> Function name must be a string
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(22): App\Models\SettingModel->getMenu()
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 07:48:22 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 23:05:19 --> Call to undefined function App\Models\sortMenu()
+#0 C:\xampp\htdocs\sikerja\app\Models\SettingModel.php(22): App\Models\SettingModel->sortMenu(Array)
+#1 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(22): App\Models\SettingModel->getMenu()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-08-13 23:05:19 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 23:05:28 --> Call to undefined function App\Models\sortMenu()
+#0 C:\xampp\htdocs\sikerja\app\Models\SettingModel.php(22): App\Models\SettingModel->sortMenu(Array)
+#1 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(22): App\Models\SettingModel->getMenu()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-08-13 23:05:28 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 23:07:21 --> Call to undefined function App\Models\sortMenu()
+#0 C:\xampp\htdocs\sikerja\app\Models\SettingModel.php(22): App\Models\SettingModel->sortMenu(Array)
+#1 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(22): App\Models\SettingModel->getMenu()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-08-13 23:07:21 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 23:07:39 --> Call to undefined function App\Models\sortMenu()
+#0 C:\xampp\htdocs\sikerja\app\Models\SettingModel.php(22): App\Models\SettingModel->sortMenu(Array)
+#1 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(22): App\Models\SettingModel->getMenu()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-08-13 23:07:39 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 23:07:57 --> Call to undefined function App\Models\sortMenu()
+#0 C:\xampp\htdocs\sikerja\app\Models\SettingModel.php(22): App\Models\SettingModel->sortMenu(Array)
+#1 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(22): App\Models\SettingModel->getMenu()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-08-13 23:07:57 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 23:08:25 --> Call to undefined function App\Models\sortMenu()
+#0 C:\xampp\htdocs\sikerja\app\Models\SettingModel.php(22): App\Models\SettingModel->sortMenu(Array)
+#1 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(24): App\Models\SettingModel->getMenu()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#4 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-08-13 23:08:25 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 23:09:21 --> Call to undefined function App\Controllers\sortMenu()
+#0 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(23): App\Controllers\Setting->sortMenu(Array)
+#1 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#2 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#3 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-13 23:09:21 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 23:17:06 --> Call to a member function segment() on null
+#0 C:\xampp\htdocs\sikerja\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#2 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#3 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#5 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(32): view('admin/home', Array)
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#8 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-08-13 23:17:06 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 23:24:40 --> syntax error, unexpected 'var' (T_VAR), expecting end of file
+#0 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#1 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#2 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#4 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(32): view('admin/home', Array)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-08-13 23:24:40 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 23:27:33 --> syntax error, unexpected 'var' (T_VAR), expecting end of file
+#0 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#1 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#2 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#4 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(32): view('admin/home', Array)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-08-13 23:27:33 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 23:30:16 --> syntax error, unexpected 'var' (T_VAR), expecting end of file
+#0 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#1 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#2 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#4 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(32): view('admin/home', Array)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-08-13 23:30:16 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 23:30:22 --> syntax error, unexpected 'var' (T_VAR), expecting end of file
+#0 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#1 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#2 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#4 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(32): view('admin/home', Array)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-08-13 23:30:22 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 23:30:57 --> syntax error, unexpected 'var' (T_VAR), expecting end of file
+#0 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#1 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#2 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#4 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(32): view('admin/home', Array)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-08-13 23:30:57 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 23:32:14 --> syntax error, unexpected 'var' (T_VAR), expecting end of file
+#0 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#1 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#2 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#4 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(32): view('admin/home', Array)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-08-13 23:32:14 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 23:32:56 --> syntax error, unexpected 'var' (T_VAR), expecting end of file
+#0 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#1 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#2 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#4 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(32): view('admin/home', Array)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-08-13 23:32:56 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 23:35:02 --> syntax error, unexpected 'var' (T_VAR), expecting end of file
+#0 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#1 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#2 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#4 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(32): view('admin/home', Array)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-08-13 23:35:02 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 23:46:10 --> syntax error, unexpected 'var' (T_VAR), expecting end of file
+#0 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#1 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#2 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#4 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(32): view('admin/home', Array)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-08-13 23:46:10 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 23:46:58 --> syntax error, unexpected 'var' (T_VAR), expecting end of file
+#0 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#1 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#2 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#4 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(32): view('admin/home', Array)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-08-13 23:46:58 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-13 23:49:07 --> syntax error, unexpected 'var' (T_VAR), expecting end of file
+#0 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#1 C:\xampp\htdocs\sikerja\app\Views\admin\home.php(10): view('_partials/sideb...')
+#2 C:\xampp\htdocs\sikerja\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sikerja\system\Common.php(1119): CodeIgniter\View\View->render('admin/home', Array, true)
+#4 C:\xampp\htdocs\sikerja\app\Controllers\Setting.php(32): view('admin/home', Array)
+#5 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(918): App\Controllers\Setting->index()
+#6 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#7 C:\xampp\htdocs\sikerja\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sikerja\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sikerja\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-08-13 23:49:07 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\sikerja\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
